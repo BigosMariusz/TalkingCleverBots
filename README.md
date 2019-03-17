@@ -1,7 +1,7 @@
 # TalkingCleverBots
 
 ### Description
-A simple program which control two chrome browser using selenium framework. It initiate talk between two bots and passed replies to each other. 
+A simple program which control two chrome browsers using selenium framework. It initiate talk between two bots and passed replies to each other. 
 
 ### Key problem
 The key problem was how to synchronize two browsers. To resolve this I check if image of circle exist. If not i catch NoSuchElementException and after 100ms I try again.
